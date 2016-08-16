@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Postit</title>
+</head>
+<body>
+    <div id="maincontainer"></div>
+    <script>
+    (function() {
+        const script = document.createElement('script');
+        script.src = (process.env.HOT) ? 'http://localhost:8082/bundle.js' : 'bundle.js';
+        document.write(script.outerHTML);
+    }());
+    </script>
+</body>
+</html>

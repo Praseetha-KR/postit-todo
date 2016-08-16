@@ -1,0 +1,13 @@
+{
+    "presets": [
+        "react"
+    ],
+    "plugins": [
+        "transform-async-to-generator"
+    ],
+    "env": {
+        "development": {
+            "presets": ["react-hmre"]
+        }
+    }
+}
