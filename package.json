@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "postit todo list",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  },
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-eslint": "^6.1.2",
