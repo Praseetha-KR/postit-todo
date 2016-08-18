@@ -3,6 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Postit</title>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <style>
+        body {
+            /*background: #FFFFB5 #CFE38C #A0E8E3;*/
+            background-color: #B8EB86;
+            font-family: 'Coming Soon', cursive;
+        }
+        .todo__header {
+            margin: 1em;
+            overflow: hidden;
+        }
+        .todo__add {
+            text-align: center;
+            float: left;
+        }
+        .todo__add__input {
+            border: none;
+            font-family: 'Coming Soon', cursive;
+            width: 12em;
+            font-size: 1em;
+            padding: 0.2em 0.5em;
+            border-radius: 0.3em;
+        }
+        .todo__add__input:focus {
+            outline: none;
+        }
+        .todo__filter {
+            text-align: center;
+            float: right;
+            margin: auto;
+        }
+        .todo__filter__item {
+            display: inline-block;
+        }
+        .todo__filter__item svg {
+            margin: 0.3em 0.2em;
+            vertical-align: middle;
+        }
+        .todo__filter__item svg path{
+            fill: #849c6d;
+        }
+        .todo__filter__item--active svg path {
+            fill: #333333;
+        }
+        .todo__list {
+            font-size: 1em;
+            padding-left: 0.7em;
+        }
+    </style>
 </head>
 <body>
     <div id="maincontainer"></div>
