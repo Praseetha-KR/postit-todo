@@ -1,40 +1,40 @@
 const electron = require('electron');
 
-// const app = electron.app;
-// const BrowserWindow = electron.BrowserWindow;
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
 
-// let mainWindow;
+let mainWindow;
 
-// function createWindow () {
-//     mainWindow = new BrowserWindow({width: 800, height: 600});
+function createWindow () {
+    mainWindow = new BrowserWindow({width: 800, height: 600});
 
-//     mainWindow.loadURL(`file://${__dirname}/index.html`);
-//     mainWindow.webContents.openDevTools();
+    mainWindow.loadURL(`file://${__dirname}/index.html`);
+    mainWindow.webContents.openDevTools();
 
-//     mainWindow.on('closed', function () {
-//         mainWindow = null;
-//     });
-// }
+    mainWindow.on('closed', function () {
+        mainWindow = null;
+    });
+}
 
-// app.on('ready', createWindow);
+app.on('ready', createWindow);
 
-// app.on('window-all-closed', function () {
-//     //if (process.platform !== 'darwin') {
-//     app.quit();
-//     //}
-// });
-
-// app.on('activate', function () {
-//     if (mainWindow === null) {
-//         createWindow();
-//     }
-// });
-
-var menubar = require('menubar');
-
-var mb = menubar();
-
-mb.on('ready', function ready () {
-  console.log('app is ready');
-  // your app code here
+app.on('window-all-closed', function () {
+    //if (process.platform !== 'darwin') {
+    app.quit();
+    //}
 });
+
+app.on('activate', function () {
+    if (mainWindow === null) {
+        createWindow();
+    }
+});
+
+// var menubar = require('menubar');
+
+// var mb = menubar();
+
+// mb.on('ready', function ready () {
+//   console.log('app is ready');
+//   // your app code here
+// });
