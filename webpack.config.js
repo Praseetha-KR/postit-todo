@@ -34,7 +34,7 @@ const config = {
 if (process.env.NODE_ENV === 'production') {
     config.devtool = false;
     config.debug = false;
-    config.plugins.push(new webpack.optimize.UglifyJsPlugin());
+    // config.plugins.push(new webpack.optimize.UglifyJsPlugin());
 }
 
 module.exports = config;
