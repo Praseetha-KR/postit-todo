@@ -8,5 +8,7 @@
   },
   "author": "Praseetha KR",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "menubar": "^5.1.0"
+  }
 }
