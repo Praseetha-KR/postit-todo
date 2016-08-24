@@ -3,3 +3,5 @@ bower_components/
 coverage/
 npm-debug.log
 bundle.js
+.DS_Store
+dist/mac/PostIt Todo.app/Contents/
