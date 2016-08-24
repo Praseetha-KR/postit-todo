@@ -12,3 +12,8 @@ Start dev server & electron app:
 npm run dev
 npm start
 ```
+
+Packaging:
+```
+npm run dist
+```

@@ -31,8 +31,9 @@
     "webpack-merge": "^0.14.1"
   },
   "build": {
+    "productName": "PostIt Todo",
     "appId": "com.Praseetha-KR.postit",
-    "app-category-type": "public.app-category.developer-tools",
+    "category": "public.app-category.developer-tools",
     "asar": false
   },
   "scripts": {
