@@ -11,7 +11,7 @@
             font-family: 'Coming Soon', cursive;
         }
         .todo__header {
-            margin: 1em;
+            margin: 0.7em;
             overflow: hidden;
         }
         .todo__add {
@@ -36,6 +36,7 @@
         }
         .todo__filter__item {
             display: inline-block;
+            position: relative;
         }
         .todo__filter__item svg {
             margin: 0.3em 0.2em;
@@ -49,7 +50,7 @@
         }
         .todo__list {
             font-size: 1em;
-            padding-left: 0.7em;
+            padding: 0 0.5em;
         }
         .todo__quit {
             position: absolute;
@@ -59,6 +60,21 @@
         .todo__quit svg g {
             fill: #849c6d;
             /*transform: scale(2);*/
+        }
+        .todo__list__item {
+            padding: 0 0.2em;
+        }
+        .todo__list__item:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+        .todo__list__item__delete {
+            float: right;
+        }
+        .todo__list__item__delete svg {
+            vertical-align: middle;
+        }
+        .todo__list__item__delete svg g path {
+            fill: #849c6d;
         }
     </style>
 </head>
