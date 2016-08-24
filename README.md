@@ -5,9 +5,9 @@ PostIt Todo is a todo task list manager app for OSX menubar.
 This is implemented using **Electron, Redux, React, idb (IndexedDB)** along with **Babel & Webpack.**
 
 Download the latest `.dmg` file for mac [here](https://github.com/Praseetha-KR/postit-todo/tree/master/dist/mac)
+<br><br><br>
 
-
-![screenshot](screenshot/screenshot__postit_todo.jpg)
+<img src="./screenshot/screenshot__postit_todo.jpg" width="500" />
 
 
 ###Install dependencies:
